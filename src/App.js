@@ -1,5 +1,7 @@
 import './App.css';
 import image from './image.png';
+import video from './myVideo.mp4';
+
 import './style.css';
 
 function App() {
@@ -12,7 +14,7 @@ function App() {
     </div>
     <video className="video1" width='750' hight='500' controls />
 
-    <source src="/myVideo.mp4" type="video/mp4" />
+    <source src={video} type="video/mp4" />
   </div>
   );
 }
