@@ -12,9 +12,9 @@ function App() {
     <img className="image1" src={image} alt="imageInSrc" />
     <img className="image2" src="imageInPublic.jpg" alt="jsx" />
     </div>
-    <video className="video1" width='750' hight='500' controls />
-
-    <source src={video} type="video/mp4" />
+    <video className="video1" width="750" height="500" controls >
+      <source src={video} type="video/mp4"/>
+     </video>
   </div>
   );
 }
